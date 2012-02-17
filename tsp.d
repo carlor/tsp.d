@@ -65,8 +65,6 @@ City[] readFromFile(string fname) {
     return r;
 }
 
-real min = real.max;
-
 // return the best route between the two cities containing the others
 immutable(Route) bestRouteBetweenFunc(immutable(City) a,
                                       immutable(City) b, 
