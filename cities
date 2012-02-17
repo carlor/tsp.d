@@ -1,6 +1,9 @@
 # These are the 11 most populous cities in the USA
+# Note that the numbers can be anything parsable by to!real,
+# so you can use decimal numbers. I've rounded everything to
+# the nearest latitude/longitude
 
-#Name        x  y
+# Name       x  y
 NewYorkCity  41 74
 LosAngeles   34 118
 Chicago      42 87
